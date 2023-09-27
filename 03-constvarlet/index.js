@@ -9,8 +9,13 @@ const harry = 0;
 
 let c = null
 let d  = undefined  
+
+//blocked scope
 {
   let b = 'this'
   console.log(b)
 }
 console.log(b)
+
+//var can be updated & re-declared within scope
+//let can be updated but not re-declared 
